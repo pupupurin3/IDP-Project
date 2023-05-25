@@ -13049,6 +13049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18c5e8d46183346b59f64b820e71f97f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
   itemId: 46
   indentLevel: 0
   anyOrAllConditions: 0
@@ -15029,6 +15030,18 @@ MonoBehaviour:
   itemId: 52
   indentLevel: 0
   storyText: ' I should glue the pieces together.'
+=======
+  nodeRect:
+    serializedVersion: 2
+    x: 261
+    y: 431
+    width: 147
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 1
+  itemId: 12
+  blockName: Got Key A (Copy)
+>>>>>>> Stashed changes
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

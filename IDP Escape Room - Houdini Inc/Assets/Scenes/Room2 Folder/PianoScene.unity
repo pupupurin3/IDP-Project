@@ -832,7 +832,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 66
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -918,7 +918,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388698165}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 492.3908, y: 164.9223, z: -11.8493805}
+  m_LocalPosition: {x: 296, y: 132, z: -11.8493805}
   m_LocalScale: {x: 1.0045, y: 0.7671863, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1246,7 +1246,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 27.185791
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1270,7 +1270,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 582128812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 269.31213, y: 244.52802, z: -10}
+  m_LocalPosition: {x: 894, y: 8, z: -10}
   m_LocalScale: {x: 2.215321, y: 2.663489, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2571,7 +2571,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -12.207504, y: -49.96985}
+  m_AnchoredPosition: {x: -13, y: -49.96985}
   m_SizeDelta: {x: 55.3832, y: 266.3508}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1180443772
