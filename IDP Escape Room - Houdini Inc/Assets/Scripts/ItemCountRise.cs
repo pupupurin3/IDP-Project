@@ -13,6 +13,7 @@ public class ItemCountRise : MonoBehaviour
     public void Start()
     {
         interactNotification = GameObject.Find ("interactNotification");
+        interactNotification.SetActive(false);
     }
 
     public void PickupKeyPartA()
