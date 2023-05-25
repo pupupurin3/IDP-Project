@@ -8,6 +8,7 @@ public class ItemCountRise : MonoBehaviour
     public int keyBCount;
     public int GlueCount;
     GameObject interactNotification;
+    public Fungus.Flowchart myFlowchart; // Link the Flowchart in your script
 
 
     public void Start()
