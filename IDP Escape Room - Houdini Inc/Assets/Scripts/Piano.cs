@@ -91,7 +91,7 @@ public class Piano : MonoBehaviour
 
         void solvedpuzzle()
         {
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(6);
 
         }
 
