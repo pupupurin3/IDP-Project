@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room2 Folder/PianoScene.unity
     guid: 581effa6902e56d429224bb91eda58d6
+  - enabled: 1
+    path: Assets/Scenes/Cutscenes/Cutscene1.unity
+    guid: 2b5b1f5eeebf5470d9e36ff22bff3bf7
   m_configObjects: {}
