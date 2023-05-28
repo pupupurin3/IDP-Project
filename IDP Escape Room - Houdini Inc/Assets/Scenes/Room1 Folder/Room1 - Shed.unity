@@ -7743,6 +7743,7 @@ GameObject:
   - component: {fileID: 1761194851}
   - component: {fileID: 1761194850}
   - component: {fileID: 1761194853}
+  - component: {fileID: 1761194854}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -7766,7 +7767,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66
     y: 71
-    width: 108.36374
+    width: 114
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -7775,6 +7776,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 1761194778}
   commandList:
+  - {fileID: 1761194854}
   - {fileID: 1761194777}
   - {fileID: 1761194776}
   suppressAllAutoSelections: 0
@@ -7791,11 +7793,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -321.50302, y: -331.30237}
+  scrollPos: {x: 13.085978, y: 150.549}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 402
-  zoom: 0.9594998
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -7803,9 +7805,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1761194840}
+  - {fileID: 1761194773}
   selectedCommands:
-  - {fileID: 1761194849}
+  - {fileID: 1761194776}
   variables:
   - {fileID: 1761194794}
   - {fileID: 1761194793}
@@ -7850,7 +7852,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Let me take a look around.
+  storyText: But this shed is kinda underwhelming. I could be wrong though! I'll
+    take a look around.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7877,7 +7880,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 1
   indentLevel: 0
-  storyText: 'Oh no... looks like I''ll be stuck here for a while.
+  storyText: '{punch=10,0.5} BOO-YAH!!! Shed infiltrated.
 
 '
   description: 
@@ -7968,7 +7971,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.5
     y: 310
-    width: 105.237114
+    width: 112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -8020,7 +8023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259
     y: 371
-    width: 105.237114
+    width: 112
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -8072,7 +8075,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 259.04657
     y: 432
-    width: 98.46275
+    width: 106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -8499,7 +8502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 345.5
     y: 490
-    width: 121.391365
+    width: 130
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -12903,7 +12906,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 467.75037
     y: 552.35144
-    width: 162.03754
+    width: 176
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 1
@@ -13387,6 +13390,26 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &1761194854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761194772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 74
+  indentLevel: 0
+  duration: 2
+  targetAlpha: 0
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &1793745743
 GameObject:
   m_ObjectHideFlags: 0
