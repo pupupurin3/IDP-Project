@@ -34,22 +34,31 @@ public class Timer : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("entry.182013201", player);
         form.AddField("entry.316933456", puzzleNum);
-        form.AddField("entry.1377343469", elapsedTime);       
+        form.AddField("entry.1377343469", elapsedTime);
+        Debug.LogWarning($"--- {player}, {puzzleNum}, {elapsedTime}");
+
+        float t1 = float.Parse(PlayerPrefs.GetString("Time" + puzzleNum, "1800"));
+        float t2 = float.Parse(elapsedTime);
+        if (t2 < t1)
+        {
+            PlayerPrefs.SetString("Player" + puzzleNum, player);
+            PlayerPrefs.SetString("Time" + puzzleNum, t2.ToString("0.00"));
+        }
+        PlayerPrefs.Save();
 
         UnityWebRequest webRequest = UnityWebRequest.Post(GOOGLE_FORM_URL, form);
         yield return webRequest.SendWebRequest();
         
-
         if (webRequest.result != UnityWebRequest.Result.Success)
         {
             Debug.LogWarning("Form failed. Error: " + webRequest.error);
         }
     }
-   
+
     /// Send form data to google based on current user data. 
     public void SendFormDataToGoogle() 
     {
-        string player = "chrizZ"; // TODO: need to add player name
+        string player = PlayerPrefs.GetString("CurrentPlayer", "--");
         string puzzleNum = PuzzleCounter.ToString();
         PuzzleCounter++;
         string elapsedTime = (LastPuzzleTimeValue - TimeValue).ToString();
