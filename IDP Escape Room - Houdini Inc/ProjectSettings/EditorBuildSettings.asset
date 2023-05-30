@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cutscenes/Cutscene1.unity
     guid: 2b5b1f5eeebf5470d9e36ff22bff3bf7
+  - enabled: 1
+    path: Assets/Scenes/Title&Setting/NameInput.unity
+    guid: 2e4bd175ee83245479de10d209cd7b27
+  - enabled: 1
+    path: Assets/Scenes/Title&Setting/Leaderboard.unity
+    guid: 11ad2f413d2824342809f8a10f264a39
   m_configObjects: {}

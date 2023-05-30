@@ -3801,6 +3801,9 @@ GameObject:
   - component: {fileID: 548174430}
   - component: {fileID: 548174429}
   - component: {fileID: 548174428}
+  - component: {fileID: 548174436}
+  - component: {fileID: 548174435}
+  - component: {fileID: 548174434}
   m_Layer: 0
   m_Name: HintFlowchart
   m_TagString: Untagged
@@ -4829,10 +4832,13 @@ MonoBehaviour:
   commandList:
   - {fileID: 548174423}
   - {fileID: 548174422}
+  - {fileID: 548174436}
   - {fileID: 548174421}
   - {fileID: 548174420}
+  - {fileID: 548174435}
   - {fileID: 548174419}
   - {fileID: 548174418}
+  - {fileID: 548174434}
   - {fileID: 548174416}
   - {fileID: 548174433}
   - {fileID: 548174432}
@@ -4868,7 +4874,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 548174425}
   selectedCommands:
-  - {fileID: 548174428}
+  - {fileID: 548174434}
   variables:
   - {fileID: 548174424}
   description: 
@@ -5020,6 +5026,90 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &548174434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548174415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 230
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 1091686110}
+  targetComponentAssemblyName: Timer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Timer
+  targetMethod: DeductTime
+  targetMethodText: 'DeductTime (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &548174435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548174415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 229
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 1091686110}
+  targetComponentAssemblyName: Timer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Timer
+  targetMethod: DeductTime
+  targetMethodText: 'DeductTime (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
+--- !u!114 &548174436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548174415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688e35811870d403f9e2b1ab2a699d98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 228
+  indentLevel: 1
+  description: 
+  targetObject: {fileID: 1091686110}
+  targetComponentAssemblyName: Timer, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+    PublicKeyToken=null
+  targetComponentFullname: UnityEngine.Component[]
+  targetComponentText: Timer
+  targetMethod: DeductTime
+  targetMethodText: 'DeductTime (): Void'
+  methodParameters: []
+  saveReturnValue: 0
+  returnValueVariableKey: 
+  returnValueType: System.Void
+  showInherited: 0
+  callMode: 0
 --- !u!1 &560832975
 GameObject:
   m_ObjectHideFlags: 0

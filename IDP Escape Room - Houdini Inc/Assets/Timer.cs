@@ -4,22 +4,30 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.Networking;
-// using Fungus;
 
 public class Timer : MonoBehaviour
 {
+    /// Maximum time limit in seconds.
     public const float MAX_TIME_LIMIT = 1800;
+    /// Penalty time in seconds.
+    public const float PENALTY_TIME = 20;
+
+    /// Remaining time for the user.
     public static float TimeValue = MAX_TIME_LIMIT;
+    /// Remaining time value for the last puzzle solved.
     public static float LastPuzzleTimeValue = MAX_TIME_LIMIT;
 
+    /// Current puzzle number.
     public static float PuzzleCounter = 1;
 
+    /// UI to display time.
     public TextMeshProUGUI timeText;
-    // public Flowchart fungusFlowchart;
 
+    /// Google form url to save data.
     [SerializeField]
     private string GOOGLE_FORM_URL = "https://docs.google.com/forms/u/1/d/e/1FAIpQLScmoPQQonKGFYNqzQoNB5MAapfHPOrRqwD9xpaF86czpltS7Q/formResponse";
 
+    /// Post form data to google form (Player's name, Puzzle number, and Elapsed time).
     IEnumerator PostFormDataToGoogle(string player, string puzzleNum, string elapsedTime) 
     {   
         Debug.LogWarning("Inside PostFormData: " + GOOGLE_FORM_URL); 
@@ -32,16 +40,13 @@ public class Timer : MonoBehaviour
         yield return webRequest.SendWebRequest();
         
 
-        if (webRequest.result == UnityWebRequest.Result.Success)
+        if (webRequest.result != UnityWebRequest.Result.Success)
         {
-            Debug.LogWarning("Form submitted successfully.");
-        }
-        else
-        {
-            Debug.LogWarning("Form failed. Error: " + webRequest.error); 
+            Debug.LogWarning("Form failed. Error: " + webRequest.error);
         }
     }
    
+    /// Send form data to google based on current user data. 
     public void SendFormDataToGoogle() 
     {
         string player = "chrizZ"; // TODO: need to add player name
@@ -52,22 +57,16 @@ public class Timer : MonoBehaviour
         StartCoroutine(PostFormDataToGoogle(player, puzzleNum, elapsedTime));
     }
 
-    // int GetPuzzleNum()
-    // {
-    //     int puzzleNum = fungusFlowchart.GetIntegerVariable("PuzzleNum");
-    //     Debug.Log("Puzzle Num: " + puzzleNum);
-    //     return puzzleNum;
-    // }
-
+    /// Logs the current time.
     public void LogTimer()
     {
         Debug.LogWarning("Time Value:" + timeText.text);
     }
 
-    // Update is called once per frame
+    /// Update is called once per frame. Update the current time.
     void Update()
     {
-        if(TimeValue >0)
+        if(TimeValue > 0)
         {
             TimeValue -= Time.deltaTime;
         }
@@ -79,6 +78,7 @@ public class Timer : MonoBehaviour
         DisplayTime(TimeValue);
     }
 
+    /// Displays current time.
     void DisplayTime(float timeToDisplay)
     {
         if(timeToDisplay < 0)
@@ -89,5 +89,12 @@ public class Timer : MonoBehaviour
         float seconds = Mathf.FloorToInt(timeToDisplay % 60);
 
         timeText.text = string.Format("{0:00}:{1:00}", minutes, seconds);
+    }
+
+    /// Deducts time when user clicks hint button.
+    public void DeductTime()
+    {
+        TimeValue = TimeValue - PENALTY_TIME;
+        Debug.LogWarning(TimeValue);
     }
 }
