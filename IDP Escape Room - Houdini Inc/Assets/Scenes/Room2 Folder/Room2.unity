@@ -4877,7 +4877,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 68
     y: 70
-    width: 100.828835
+    width: 102.59036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4906,11 +4906,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 149.6828, y: 148.5762}
+  scrollPos: {x: 25.505795, y: 2.636217}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.45249906
+  zoom: 0.6369988
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -4919,8 +4919,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1202287692}
-  selectedCommands:
-  - {fileID: 1202287697}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -5171,7 +5170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 264
     y: 311
-    width: 140.60793
+    width: 143.40677
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5236,7 +5235,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 246.5
     y: 388
-    width: 180.38701
+    width: 184.22318
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9089,6 +9088,8 @@ GameObject:
   - component: {fileID: 2028974548}
   - component: {fileID: 2028974547}
   - component: {fileID: 2028974549}
+  - component: {fileID: 2028974551}
+  - component: {fileID: 2028974550}
   m_Layer: 0
   m_Name: Puzzle
   m_TagString: Untagged
@@ -9109,11 +9110,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -248.32932, y: -51.049168}
+  scrollPos: {x: -253.84839, y: -54.550934}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 401
-  zoom: 0.52
+  zoom: 0.53049994
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -9123,7 +9124,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2028974393}
   selectedCommands:
-  - {fileID: 2028974549}
+  - {fileID: 2028974550}
   variables:
   - {fileID: 2028974391}
   - {fileID: 2028974390}
@@ -9325,7 +9326,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 16
   indentLevel: 1
-  storyText: Yes, Solved puzzle
+  storyText: I think I did it!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9352,9 +9353,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 489.71606
+    x: 487.83105
     y: 93.33055
-    width: 108.65385
+    width: 109.37795
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9367,6 +9368,8 @@ MonoBehaviour:
   - {fileID: 2028974392}
   - {fileID: 2028974441}
   - {fileID: 2028974549}
+  - {fileID: 2028974551}
+  - {fileID: 2028974550}
   suppressAllAutoSelections: 0
 --- !u!114 &2028974399
 MonoBehaviour:
@@ -9440,8 +9443,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 489.1969
-    y: 266.32486
-    width: 102.88461
+    y: 268.24792
+    width: 102.7804
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9554,7 +9557,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 492.43262
     y: 209.63416
-    width: 93.26923
+    width: 93.35533
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9598,7 +9601,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 488.0976
     y: 40.634148
-    width: 111.53847
+    width: 110.320465
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11933,7 +11936,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 512.74194
     y: 587.4257
-    width: 139.42308
+    width: 139.53818
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12184,7 +12187,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 486.6792
     y: 471.53986
-    width: 150
+    width: 149.90576
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12422,7 +12425,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 485.92175
     y: 420.76697
-    width: 150
+    width: 149.90576
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12660,7 +12663,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 488.731
     y: 372.19705
-    width: 149.03847
+    width: 148.96326
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -12898,7 +12901,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 488.07794
     y: 319.40762
-    width: 148.07693
+    width: 148.02075
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -13342,7 +13345,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 522.744
     y: 732.0677
-    width: 218.26924
+    width: 218.70879
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17197,7 +17200,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 509.71536
     y: 670.5158
-    width: 178.84616
+    width: 179.12349
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -17288,7 +17291,7 @@ MonoBehaviour:
   callMode: 1
 --- !u!114 &2028974549
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17307,6 +17310,45 @@ MonoBehaviour:
     booleanRef: {fileID: 0}
     booleanVal: 0
   targetGameObjectOLD: {fileID: 0}
+--- !u!114 &2028974550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028974379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 174
+  indentLevel: 1
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: TBC
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &2028974551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028974379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 173
+  indentLevel: 1
+  duration: 2
+  targetAlpha: 1
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  fadeTweenType: 4
 --- !u!1 &2100157008
 GameObject:
   m_ObjectHideFlags: 0

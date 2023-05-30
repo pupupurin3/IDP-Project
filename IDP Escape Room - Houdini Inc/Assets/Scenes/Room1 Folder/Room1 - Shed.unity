@@ -9333,7 +9333,6 @@ GameObject:
   - component: {fileID: 1761194848}
   - component: {fileID: 1761194852}
   - component: {fileID: 1761194851}
-  - component: {fileID: 1761194850}
   - component: {fileID: 1761194853}
   - component: {fileID: 1761194854}
   - component: {fileID: 1761194856}
@@ -9400,7 +9399,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1761194840}
   selectedCommands:
-  - {fileID: 1761194848}
+  - {fileID: 1761194853}
   variables:
   - {fileID: 1761194794}
   - {fileID: 1761194793}
@@ -14516,7 +14515,6 @@ MonoBehaviour:
   - {fileID: 1761194849}
   - {fileID: 1761194852}
   - {fileID: 1761194851}
-  - {fileID: 1761194850}
   - {fileID: 1761194853}
   - {fileID: 1761194848}
   suppressAllAutoSelections: 1
@@ -14900,27 +14898,6 @@ MonoBehaviour:
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
   fadeTweenType: 4
---- !u!114 &1761194850
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1761194772}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbd8c931f22994b9d90e2037fffaa770, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 72
-  indentLevel: 1
-  _targetGameObject:
-    gameObjectRef: {fileID: 0}
-    gameObjectVal: {fileID: 0}
-  activeState:
-    booleanRef: {fileID: 0}
-    booleanVal: 0
-  targetGameObjectOLD: {fileID: 0}
 --- !u!114 &1761194851
 MonoBehaviour:
   m_ObjectHideFlags: 2
