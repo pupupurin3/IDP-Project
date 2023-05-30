@@ -1175,6 +1175,7 @@ GameObject:
   - component: {fileID: 1390215688}
   - component: {fileID: 1390215687}
   - component: {fileID: 1390215681}
+  - component: {fileID: 1390215691}
   m_Layer: 0
   m_Name: InputFlowchart
   m_TagString: Untagged
@@ -1209,7 +1210,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1390215682}
   selectedCommands:
-  - {fileID: 1390215681}
+  - {fileID: 1390215691}
   variables: []
   description: 
   stepPause: 0
@@ -1276,6 +1277,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1390215681}
   - {fileID: 1390215684}
+  - {fileID: 1390215691}
   suppressAllAutoSelections: 0
 --- !u!114 &1390215684
 MonoBehaviour:
@@ -1362,7 +1364,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 262.5
-    y: 311
+    y: 312
     width: 144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -1389,6 +1391,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1390215691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1390215678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Title Scene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1953543458
 GameObject:
   m_ObjectHideFlags: 0

@@ -44,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title&Setting/TBC.unity
     guid: bf2cef1e3594e4e31b4af57b249ef080
+  - enabled: 1
+    path: Assets/Scenes/Title&Setting/Feedback.unity
+    guid: 021d377fd6d22467095c198fa7cce546
   m_configObjects: {}
